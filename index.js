@@ -82,7 +82,7 @@ app.get('/', (req, res) => {
 })
 
 app.use("/status",(req,res) => {
-    res.send({status: "OK"});
+    res.send({status: "OK reussi"});
 })
 
 
